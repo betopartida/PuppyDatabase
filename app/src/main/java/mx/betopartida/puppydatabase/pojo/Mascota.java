@@ -1,11 +1,12 @@
 package mx.betopartida.puppydatabase.pojo;
 
 import java.io.Serializable;
+import java.util.Date;
 
 /**
  * Created by beto on 29/06/2016.
  */
-public class Mascota implements Serializable {
+public class Mascota {
     private int idmascota;
     private String nombre;
     private int foto;

@@ -1,5 +1,7 @@
 package mx.betopartida.puppydatabase.bd;
 
+import java.util.Date;
+
 /**
  * Created by beto on 05/08/2016.
  */
@@ -14,8 +16,9 @@ public class ConstantesBD {
     public static final String MASCOTA_NOMBRE="nombre";
     public static final String MASCOTA_FOTO="foto";
     public static final String MASCOTA_LIKES="likes";
-    public static final String MASCOTA_FAV="fav";
+    public static final String MASCOTA_ULTIMO_LIKE="ultimoLike";
 
-    public static final String MASCOTA_LIKE_LIKE="LIKE";
+    public static final String MASCOTA_LIKE_LIKE="like";
+    public static final String MASCOTA_LIKE_FECHA ="fecha_like";
 
 }

@@ -110,6 +110,8 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Snackbar.make(v, R.string.borrar, Snackbar.LENGTH_LONG).show();
                 borraTablaMascotas();
+                finish();
+                startActivity(getIntent());
             }
         });
     }

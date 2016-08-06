@@ -4,6 +4,7 @@ import android.content.ContentValues;
 import android.content.Context;
 
 import java.util.ArrayList;
+import java.util.Date;
 
 import mx.betopartida.puppydatabase.pojo.Mascota;
 
@@ -42,8 +43,11 @@ public class ConstructorMascota {
     public void darLike(Mascota mascota) {
         BaseDatos bd=new BaseDatos(contexto);
         ContentValues cv=new ContentValues();
+        long fecha=new Date().getTime();
+
         cv.put(ConstantesBD.MASCOTA_IDMASCOTA,mascota.getIdmascota());
         cv.put(ConstantesBD.MASCOTA_LIKE_LIKE,LIKE);
+        cv.put(ConstantesBD.MASCOTA_LIKE_FECHA,fecha);
         bd.insertarLikeMascota(cv);
     }
 

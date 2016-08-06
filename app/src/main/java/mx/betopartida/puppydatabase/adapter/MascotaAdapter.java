@@ -46,8 +46,8 @@ public class MascotaAdapter extends RecyclerView.Adapter<MascotaAdapter.MascotaV
             //Al hacer click en el hueso blanco se incrementa el contador de likes
             public void onClick(View v) {
                 constructorMascota=new ConstructorMascota(v.getContext());
-                constructorMascota.insertar(mascota);
                 constructorMascota.darLike(mascota);
+                constructorMascota.insertar(mascota);
                 mascota.setLikes(constructorMascota.obtenerLikes(mascota));
                 holder.tvLikes.setText(String.valueOf(mascota.getLikes()));
             }

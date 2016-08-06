@@ -11,9 +11,9 @@
     <string name="comentarios">Comentarios:</string>
     <string name="enviar">Enviar:</string>
     <string name="mensaje_bio">Info del desarrollador:</string>
-    <string name="titulo_favs">Las más votadas</string>
+    <string name="titulo_favs">Votadas recientemente</string>
     <string name="mas_info">Mas información</string>
-    <string name="borrar">Se limpió la tabla de mascotas!</string>
+    <string name="borrar">Limpieza de tablas realizada!</string>
 
     <string name="nombre_dev">Alberto Partida</string>
     <string name="email_dev">betopartida@hotmail.com</string>
