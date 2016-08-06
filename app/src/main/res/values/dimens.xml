@@ -1,0 +1,25 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="padding_derecha">10dp</dimen>
+    <dimen name="padding_abajo">10dp</dimen>
+    <dimen name="margen_arriba">20dp</dimen>
+    <item name="escala_star" format="float" type="dimen">1.2</item>
+    <item name="escala_paw" format="float" type="dimen">1.0</item>
+    <item name="escala_min" format="float" type="dimen">0.7</item>
+    <item name="escala_cir" format="float" type="dimen">0.5</item>
+    <item name="diametro" type="dimen">100dp</item>
+
+
+    <dimen name="horizontal_margin">50dp</dimen>
+    <dimen name="margin_top">10dp</dimen>
+    <!-- Profile -->
+    <dimen name="imagen_circular_width">150dp</dimen>
+    <dimen name="imagen_circular_height">150dp</dimen>
+    <dimen name="civ_border_width">3dp</dimen>
+    <dimen name="profile_margin_top">5dp</dimen>
+    <dimen name="profile_margin_bottom">10dp</dimen>
+</resources>

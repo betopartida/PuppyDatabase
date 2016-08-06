@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">PuppyDatabase</string>
+    <string name="caption_imagen">PuppyDatabase</string>
+    <string name="contador">99</string>
+    <string name="menu_contacto">Contacto</string>
+    <string name="menu_acercade">Acerca de</string>
+    <string name="titulo_contacto">Contactanos</string>
+    <string name="mensaje_comentario">Favor de proporcionar sus datos:</string>
+    <string name="nombre">Nombre:</string>
+    <string name="email">E-mail:</string>
+    <string name="comentarios">Comentarios:</string>
+    <string name="enviar">Enviar:</string>
+    <string name="mensaje_bio">Info del desarrollador:</string>
+    <string name="titulo_favs">Las más votadas</string>
+    <string name="mas_info">Mas información</string>
+    <string name="borrar">Se limpió la tabla de mascotas!</string>
+
+    <string name="nombre_dev">Alberto Partida</string>
+    <string name="email_dev">betopartida@hotmail.com</string>
+    <string name="link_fb">www.facebook.com/betopartida</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
